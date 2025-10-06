@@ -202,6 +202,16 @@ Main dependencies:
 
 ---
 
+## 🤝 Credits
+
+**Controller logic** (`controller2d.py`) was implemented by me as part of this project.  
+This file contains all the control algorithms — PID, EKF, and LQR — used to manage the vehicle’s longitudinal and lateral behavior within CARLA.  
+
+The rest of the files and simulation assets belong to the CARLA and Univerity of Toronto framework and are included only for demonstration and simulation purposes.
+
+
+---
+
 ## ⚠️ License
 
 This project is distributed for educational and research purposes under the **MIT License**.  
