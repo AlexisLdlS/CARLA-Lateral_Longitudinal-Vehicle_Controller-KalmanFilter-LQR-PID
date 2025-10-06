@@ -1,0 +1,885 @@
+﻿Log file open, 09/30/25 13:33:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=1920)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=1920)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=1920)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=1920)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(0) SRandInit(0).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.558643
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Carla
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PerformanceMonitor
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 05:53:08
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  /Game/Maps/RaceTrack -windowed -carla-server -benchmark -fps=30
+LogInit: Base directory: C:/Coursera/CarlaSimulator/CarlaUE4/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2025.09.30-19.33.31:290][  0]LogModuleManager: Warning: ModuleManager: Module 'ExampleDeviceProfileSelector' not found - its StaticallyLinkedModuleInitializers function is null.
+[2025.09.30-19.33.31:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2025.09.30-19.33.31:314][  0]LogInit: Computer: LAPTOP-AGAMHO44
+[2025.09.30-19.33.31:314][  0]LogInit: User: aguil
+[2025.09.30-19.33.31:314][  0]LogInit: CPU Page size=4096, Cores=4
+[2025.09.30-19.33.31:314][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.09.30-19.33.31:314][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2025.09.30-19.33.31:315][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2025.09.30-19.33.31:315][  0]LogMemory: Process Physical Memory: 105.27 MB used, 105.27 MB peak
+[2025.09.30-19.33.31:315][  0]LogMemory: Process Virtual Memory: 112.76 MB used, 112.76 MB peak
+[2025.09.30-19.33.31:315][  0]LogMemory: Physical Memory: 12505.04 MB used,  3688.23 MB free, 16193.27 MB total
+[2025.09.30-19.33.31:315][  0]LogMemory: Virtual Memory: 4461.38 MB used,  3688.23 MB free, 134217728.00 MB total
+[2025.09.30-19.33.31:736][  0]LogInit: Using OS detected language (es-ES).
+[2025.09.30-19.33.31:736][  0]LogInit: Using OS detected locale (es-MX).
+[2025.09.30-19.33.31:737][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the language.
+[2025.09.30-19.33.31:739][  0]LogTextLocalizationManager: No localization for 'es-MX' exists, so 'en' will be used for the locale.
+[2025.09.30-19.33.31:833][  0]LogD3D11RHI: D3D11 adapters:
+[2025.09.30-19.33.32:119][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2025.09.30-19.33.32:119][  0]LogD3D11RHI:       3935/0/8096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2025.09.30-19.33.32:201][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) RX Vega 10 Graphics' (Feature Level 11_0)
+[2025.09.30-19.33.32:201][  0]LogD3D11RHI:       113/0/8096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2025.09.30-19.33.32:206][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2025.09.30-19.33.32:206][  0]LogD3D11RHI:       0/0/8096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2025.09.30-19.33.32:206][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2025.09.30-19.33.32:220][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2025.09.30-19.33.32:221][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2025.09.30-19.33.32:221][  0]LogWindows: EnumDisplayDevices:
+[2025.09.30-19.33.32:221][  0]LogWindows:    0. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:1 D:1)
+[2025.09.30-19.33.32:221][  0]LogWindows:    1. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:0 D:0)
+[2025.09.30-19.33.32:221][  0]LogWindows:    2. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:0 D:0)
+[2025.09.30-19.33.32:222][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650' (P:0 D:1)
+[2025.09.30-19.33.32:222][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2025.09.30-19.33.32:222][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2025.09.30-19.33.32:222][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2025.09.30-19.33.32:222][  0]LogD3D11RHI:      Driver Date: Unknown
+[2025.09.30-19.33.32:222][  0]LogRHI: Texture pool is 2754 MB (70% of 3935 MB)
+[2025.09.30-19.33.32:403][  0]LogD3D11RHI: Async texture creation enabled
+[2025.09.30-19.33.32:436][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2025.09.30-19.33.32:477][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2025.09.30-19.33.32:487][  0]LogSlate: Using Freetype 2.6.0
+[2025.09.30-19.33.32:490][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.09.30-19.33.32:491][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.09.30-19.33.32:595][  0]LogAssetRegistry: FAssetRegistry took 0.0417 seconds to start up
+[2025.09.30-19.33.32:801][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.006072 seconds
+[2025.09.30-19.33.32:803][  0]LogPakFile: New pak file ../../../CarlaUE4/Content/Paks/CarlaUE4-WindowsNoEditor.pak added to pak precacher.
+[2025.09.30-19.33.32:813][  0]LogModuleManager: Warning: ModuleManager: Module 'ExampleDeviceProfileSelector' not found - its StaticallyLinkedModuleInitializers function is null.
+[2025.09.30-19.33.32:908][  0]LogNetVersion: CarlaUE4 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3178033479)
+[2025.09.30-19.33.33:131][  0]LogCarla: Loading CARLA settings from "../../../CarlaUE4/Config/CarlaSettings.ini"
+[2025.09.30-19.33.33:132][  0]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.33.33:132][  0]LogCarla: Last settings file loaded: ../../../CarlaUE4/Config/CarlaSettings.ini
+[2025.09.30-19.33.33:132][  0]LogCarla: [CARLA/Server]
+[2025.09.30-19.33.33:132][  0]LogCarla: Networking = Enabled
+[2025.09.30-19.33.33:132][  0]LogCarla: World Port = 2000
+[2025.09.30-19.33.33:132][  0]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.33.33:132][  0]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.33.33:132][  0]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.33.33:132][  0]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.33.33:132][  0]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.33.33:132][  0]LogCarla: Number Of Vehicles    = 15
+[2025.09.30-19.33.33:132][  0]LogCarla: Number Of Pedestrians = 30
+[2025.09.30-19.33.33:132][  0]LogCarla: Weather Id = 1
+[2025.09.30-19.33.33:132][  0]LogCarla: Seed Vehicle Spawner = 123456789
+[2025.09.30-19.33.33:132][  0]LogCarla: Seed Pedestrian Spawner = 123456789
+[2025.09.30-19.33.33:132][  0]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.33.33:132][  0]LogCarla: Found 0 available weather settings.
+[2025.09.30-19.33.33:132][  0]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.33.33:132][  0]LogCarla: Quality Settings = Low
+[2025.09.30-19.33.33:132][  0]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.33.33:132][  0]LogCarla: Added 0 sensors.
+[2025.09.30-19.33.33:132][  0]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.33.33:132][  0]LogCarla: ================================================================================
+[2025.09.30-19.33.33:185][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2025.09.30-19.33.33:186][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2025.09.30-19.33.33:186][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
+[2025.09.30-19.33.33:187][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2025.09.30-19.33.33:256][  0]LogMoviePlayer: Initializing movie player
+[2025.09.30-19.33.33:426][  0]LogUObjectArray: 31557 objects as part of root set at end of initial load.
+[2025.09.30-19.33.33:426][  0]LogUObjectAllocator: 5846960 out of 0 bytes used by permanent object pool.
+[2025.09.30-19.33.33:426][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.09.30-19.33.33:441][  0]LogEngine: Initializing Engine...
+[2025.09.30-19.33.33:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2025.09.30-19.33.33:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2025.09.30-19.33.33:594][  0]LogInit: Texture streaming: Enabled
+[2025.09.30-19.33.33:632][  0]LogCarla: Loading CARLA settings from "../../../CarlaUE4/Config/CarlaSettings.ini"
+[2025.09.30-19.33.33:633][  0]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.33.33:633][  0]LogCarla: Last settings file loaded: ../../../CarlaUE4/Config/CarlaSettings.ini
+[2025.09.30-19.33.33:633][  0]LogCarla: [CARLA/Server]
+[2025.09.30-19.33.33:633][  0]LogCarla: Networking = Enabled
+[2025.09.30-19.33.33:633][  0]LogCarla: World Port = 2000
+[2025.09.30-19.33.33:633][  0]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.33.33:633][  0]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.33.33:633][  0]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.33.33:633][  0]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.33.33:633][  0]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.33.33:633][  0]LogCarla: Number Of Vehicles    = 15
+[2025.09.30-19.33.33:633][  0]LogCarla: Number Of Pedestrians = 30
+[2025.09.30-19.33.33:633][  0]LogCarla: Weather Id = 1
+[2025.09.30-19.33.33:633][  0]LogCarla: Seed Vehicle Spawner = 123456789
+[2025.09.30-19.33.33:633][  0]LogCarla: Seed Pedestrian Spawner = 123456789
+[2025.09.30-19.33.33:633][  0]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.33.33:633][  0]LogCarla: Found 0 available weather settings.
+[2025.09.30-19.33.33:633][  0]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.33.33:633][  0]LogCarla: Quality Settings = Low
+[2025.09.30-19.33.33:633][  0]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.33.33:633][  0]LogCarla: Added 0 sensors.
+[2025.09.30-19.33.33:633][  0]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.33.33:633][  0]LogCarla: ================================================================================
+[2025.09.30-19.33.33:691][  0]LogInit: Display: Game Engine Initialized.
+[2025.09.30-19.33.33:691][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2025.09.30-19.33.33:710][  0]LogInit: Display: Starting Game.
+[2025.09.30-19.33.33:711][  0]LogNet: Browse: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.33.33:712][  0]LogLoad: LoadMap: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.33.34:236][  0]LogAIModule: Creating AISystem for world RaceTrack
+[2025.09.30-19.33.34:869][  0]LogLoad: Game class is 'CarlaGameMode_C'
+[2025.09.30-19.33.34:945][  0]LogWorld: Bringing World /Game/Maps/RaceTrack.RaceTrack up for play (max tick rate 0) at 2025.09.30-13.33.34
+[2025.09.30-19.33.34:945][  0]LogCarla: Loading weather description from ../../../CarlaUE4/Config/CarlaWeather.ini
+[2025.09.30-19.33.34:947][  0]LogCarla: Warning: "../../../CarlaUE4/Config/CarlaWeather.RaceTrack.ini" not found
+[2025.09.30-19.33.34:951][  0]LogCarlaServer: Waiting for the client to connect...
+[2025.09.30-19.33.44:952][  0]LogCarlaServer: Warning: Failed to initialize, server needs restart
+[2025.09.30-19.33.44:954][  0]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.33.44:954][  0]LogCarla: Last settings file loaded: ../../../CarlaUE4/Config/CarlaSettings.ini
+[2025.09.30-19.33.44:954][  0]LogCarla: [CARLA/Server]
+[2025.09.30-19.33.44:954][  0]LogCarla: Networking = Enabled
+[2025.09.30-19.33.44:954][  0]LogCarla: World Port = 2000
+[2025.09.30-19.33.44:954][  0]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.33.44:954][  0]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.33.44:954][  0]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.33.44:954][  0]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.33.44:954][  0]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.33.44:954][  0]LogCarla: Number Of Vehicles    = 15
+[2025.09.30-19.33.44:954][  0]LogCarla: Number Of Pedestrians = 30
+[2025.09.30-19.33.44:954][  0]LogCarla: Weather Id = 1
+[2025.09.30-19.33.44:954][  0]LogCarla: Seed Vehicle Spawner = 123456789
+[2025.09.30-19.33.44:954][  0]LogCarla: Seed Pedestrian Spawner = 123456789
+[2025.09.30-19.33.44:954][  0]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.33.44:954][  0]LogCarla: Found 15 available weather settings.
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 0 - Default
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 1 - ClearNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 2 - CloudyNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 3 - WetNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 4 - WetCloudyNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 5 - MidRainyNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 6 - HardRainNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 7 - SoftRainNoon
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 8 - ClearSunset
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 9 - CloudySunset
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 10 - WetSunset
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 11 - WetCloudySunset
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 12 - MidRainSunset
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 13 - HardRainSunset
+[2025.09.30-19.33.44:954][  0]LogCarla:   * 14 - SoftRainSunset
+[2025.09.30-19.33.44:955][  0]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.33.44:955][  0]LogCarla: Quality Settings = Low
+[2025.09.30-19.33.44:955][  0]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.33.44:955][  0]LogCarla: Added 0 sensors.
+[2025.09.30-19.33.44:955][  0]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.33.44:955][  0]LogCarla: ================================================================================
+[2025.09.30-19.33.44:958][  0]r.DefaultFeature.MotionBlur = "0"
+[2025.09.30-19.33.44:960][  0]r.DefaultFeature.Bloom = "0"
+[2025.09.30-19.33.44:962][  0]r.DefaultFeature.AmbientOcclusion = "0"
+[2025.09.30-19.33.44:963][  0]r.AmbientOcclusionLevels = "0"
+[2025.09.30-19.33.44:963][  0]r.DefaultFeature.AmbientOcclusionStaticFraction = "0"
+[2025.09.30-19.33.44:963][  0]r.DefaultFeature.AutoExposure = "0"
+[2025.09.30-19.33.44:963][  0]r.RHICmdBypass = "0"
+[2025.09.30-19.33.44:963][  0]r.DefaultFeature.AntiAliasing = "2"
+[2025.09.30-19.33.44:963][  0]r.Streaming.PoolSize = "2000"
+[2025.09.30-19.33.44:963][  0]r.HZBOcclusion = "0"
+[2025.09.30-19.33.44:963][  0]r.MinScreenRadiusForLights = "0.03"
+[2025.09.30-19.33.44:963][  0]r.SeparateTranslucency = "0"
+[2025.09.30-19.33.44:963][  0]r.FinishCurrentFrame = "0"
+[2025.09.30-19.33.44:965][  0]r.MotionBlurQuality = "0"
+[2025.09.30-19.33.44:965][  0]r.PostProcessAAQuality = "0"
+[2025.09.30-19.33.44:965][  0]r.BloomQuality = "1"
+[2025.09.30-19.33.44:965][  0]r.SSR.Quality = "0"
+[2025.09.30-19.33.44:965][  0]r.DepthOfFieldQuality = "0"
+[2025.09.30-19.33.44:965][  0]r.SceneColorFormat = "2"
+[2025.09.30-19.33.44:965][  0]r.TranslucencyVolumeBlur = "0"
+[2025.09.30-19.33.44:965][  0]r.TranslucencyLightingVolumeDim = "4"
+[2025.09.30-19.33.44:965][  0]r.MaxAnisotropy = "8"
+[2025.09.30-19.33.44:965][  0]r.LensFlareQuality = "0"
+[2025.09.30-19.33.44:965][  0]r.SceneColorFringeQuality = "0"
+[2025.09.30-19.33.44:965][  0]r.FastBlurThreshold = "0"
+[2025.09.30-19.33.44:965][  0]r.SSR.MaxRoughness = "0.1"
+[2025.09.30-19.33.44:965][  0]r.AllowOcclusionQueries = "1"
+[2025.09.30-19.33.44:975][  0]r.EarlyZPass = "2"
+[2025.09.30-19.33.45:008][  0]r.EarlyZPassMovable = "1"
+[2025.09.30-19.33.45:026][  0]foliage.DitheredLOD = "0"
+[2025.09.30-19.33.45:026][  0]sg.PostProcessQuality = "0"
+[2025.09.30-19.33.45:027][  0]sg.ShadowQuality = "0"
+[2025.09.30-19.33.45:027][  0]sg.TextureQuality = "0"
+[2025.09.30-19.33.45:027][  0]sg.EffectsQuality = "0"
+[2025.09.30-19.33.45:135][  0]sg.FoliageQuality = "0"
+[2025.09.30-19.33.45:151][  0]foliage.DensityScale = "0"
+[2025.09.30-19.33.45:151][  0]grass.densityScale = "0"
+[2025.09.30-19.33.45:151][  0]r.TranslucentLightingVolume = "0"
+[2025.09.30-19.33.45:151][  0]r.LightShaftDownSampleFactor = "4"
+[2025.09.30-19.33.45:155][  0]LogCarla: Error: Please regenerate the road in edit mode for 'CarlaMapGenerator2' actor
+[2025.09.30-19.33.45:155][  0]LogCarla: Generated DCEL with: { 4 vertices, 8 half-edges, 2 faces }
+[2025.09.30-19.33.45:165][  0]LogWorld: Bringing up level for play took: 10.289678
+[2025.09.30-19.33.45:191][  0]LogCarla: Changing weather settings to "ClearNoon"
+[2025.09.30-19.33.45:192][  0]PIE: Warning: Mobility of /Game/Maps/RaceTrack.RaceTrack:PersistentLevel.LightSource : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2025.09.30-19.33.45:193][  0]LogCarla: Found 1 PlayerStart positions for spawning vehicles
+[2025.09.30-19.33.45:193][  0]LogCarla: Warning: We don't have enough spawn points (PlayerStart) for vehicles!
+[2025.09.30-19.33.45:193][  0]LogCarla: To cover the 14 vehicles to spawn after beginplay, it will spawn one new vehicle each 3.000000 seconds
+[2025.09.30-19.33.45:207][  0]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-18380.000 Y=8020.000 Z=220.000] for [BmwGranTourer_C]
+[2025.09.30-19.33.45:207][  0]LogCarla: Warning: Requested 15 vehicles, but we were only able to spawn 1
+[2025.09.30-19.33.45:207][  0]LogCarla: Starting the timer to spawn the other 14 vehicles, one per 3.000000 seconds
+[2025.09.30-19.33.45:209][  0]LogLoad: Took 11.496286 seconds to LoadMap(/Game/Maps/RaceTrack)
+[2025.09.30-19.33.45:247][  0]LogSlate: Took 0.000929 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/DroidSansMono.ufont' (77K)
+[2025.09.30-19.33.45:259][  0]LogLoad: (Engine Initialization) Total time: 15.07 seconds
+[2025.09.30-19.33.45:259][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2025.09.30-19.33.45:307][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 26 NumSamples 1 (Frame:1).
+[2025.09.30-19.33.45:406][  0]LogContentStreaming: Texture pool size now 2000 MB
+[2025.09.30-19.33.45:645][  1]LogCarlaServer: Warning: Client disconnected, server needs restart
+[2025.09.30-19.33.45:645][  1]LogCarlaServer: Restarting the level...
+[2025.09.30-19.33.45:652][  2]LogNet: Browse: /Game/Maps/RaceTrack?Name=Player?restart
+[2025.09.30-19.33.45:683][  2]LogLoad: LoadMap: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.33.46:125][  2]LogAIModule: Creating AISystem for world RaceTrack
+[2025.09.30-19.33.46:748][  2]LogLoad: Game class is 'CarlaGameMode_C'
+[2025.09.30-19.33.46:795][  2]LogWorld: Bringing World /Game/Maps/RaceTrack.RaceTrack up for play (max tick rate 0) at 2025.09.30-13.33.46
+[2025.09.30-19.33.46:795][  2]LogCarla: Loading weather description from ../../../CarlaUE4/Config/CarlaWeather.ini
+[2025.09.30-19.33.46:797][  2]LogCarla: Warning: "../../../CarlaUE4/Config/CarlaWeather.RaceTrack.ini" not found
+[2025.09.30-19.33.46:797][  2]LogCarlaServer: Waiting for the client to connect...
+[2025.09.30-19.33.56:797][  2]LogCarlaServer: Warning: Failed to initialize, server needs restart
+[2025.09.30-19.33.56:799][  2]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.33.56:799][  2]LogCarla: Last settings file loaded: ../../../CarlaUE4/Config/CarlaSettings.ini
+[2025.09.30-19.33.56:799][  2]LogCarla: [CARLA/Server]
+[2025.09.30-19.33.56:799][  2]LogCarla: Networking = Enabled
+[2025.09.30-19.33.56:799][  2]LogCarla: World Port = 2000
+[2025.09.30-19.33.56:799][  2]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.33.56:799][  2]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.33.56:799][  2]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.33.56:799][  2]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.33.56:799][  2]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.33.56:799][  2]LogCarla: Number Of Vehicles    = 15
+[2025.09.30-19.33.56:799][  2]LogCarla: Number Of Pedestrians = 30
+[2025.09.30-19.33.56:799][  2]LogCarla: Weather Id = 1
+[2025.09.30-19.33.56:799][  2]LogCarla: Seed Vehicle Spawner = 123456789
+[2025.09.30-19.33.56:799][  2]LogCarla: Seed Pedestrian Spawner = 123456789
+[2025.09.30-19.33.56:799][  2]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.33.56:799][  2]LogCarla: Found 15 available weather settings.
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 0 - Default
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 1 - ClearNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 2 - CloudyNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 3 - WetNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 4 - WetCloudyNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 5 - MidRainyNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 6 - HardRainNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 7 - SoftRainNoon
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 8 - ClearSunset
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 9 - CloudySunset
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 10 - WetSunset
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 11 - WetCloudySunset
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 12 - MidRainSunset
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 13 - HardRainSunset
+[2025.09.30-19.33.56:799][  2]LogCarla:   * 14 - SoftRainSunset
+[2025.09.30-19.33.56:799][  2]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.33.56:800][  2]LogCarla: Quality Settings = Low
+[2025.09.30-19.33.56:800][  2]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.33.56:800][  2]LogCarla: Added 0 sensors.
+[2025.09.30-19.33.56:800][  2]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.33.56:800][  2]LogCarla: ================================================================================
+[2025.09.30-19.33.56:800][  2]r.DefaultFeature.MotionBlur = "0"
+[2025.09.30-19.33.56:804][  2]r.DefaultFeature.Bloom = "0"
+[2025.09.30-19.33.56:809][  2]r.DefaultFeature.AmbientOcclusion = "0"
+[2025.09.30-19.33.56:809][  2]r.AmbientOcclusionLevels = "0"
+[2025.09.30-19.33.56:809][  2]r.DefaultFeature.AmbientOcclusionStaticFraction = "0"
+[2025.09.30-19.33.56:810][  2]r.DefaultFeature.AutoExposure = "0"
+[2025.09.30-19.33.56:810][  2]r.RHICmdBypass = "0"
+[2025.09.30-19.33.56:810][  2]r.DefaultFeature.AntiAliasing = "2"
+[2025.09.30-19.33.56:810][  2]r.Streaming.PoolSize = "2000"
+[2025.09.30-19.33.56:810][  2]r.HZBOcclusion = "0"
+[2025.09.30-19.33.56:810][  2]r.MinScreenRadiusForLights = "0.01"
+[2025.09.30-19.33.56:810][  2]r.SeparateTranslucency = "0"
+[2025.09.30-19.33.56:810][  2]r.FinishCurrentFrame = "0"
+[2025.09.30-19.33.56:810][  2]r.MotionBlurQuality = "0"
+[2025.09.30-19.33.56:810][  2]r.PostProcessAAQuality = "0"
+[2025.09.30-19.33.56:811][  2]r.BloomQuality = "1"
+[2025.09.30-19.33.56:811][  2]r.SSR.Quality = "0"
+[2025.09.30-19.33.56:811][  2]r.DepthOfFieldQuality = "0"
+[2025.09.30-19.33.56:811][  2]r.SceneColorFormat = "2"
+[2025.09.30-19.33.56:811][  2]r.TranslucencyVolumeBlur = "0"
+[2025.09.30-19.33.56:811][  2]r.TranslucencyLightingVolumeDim = "4"
+[2025.09.30-19.33.56:811][  2]r.MaxAnisotropy = "8"
+[2025.09.30-19.33.56:811][  2]r.LensFlareQuality = "0"
+[2025.09.30-19.33.56:811][  2]r.SceneColorFringeQuality = "0"
+[2025.09.30-19.33.56:811][  2]r.FastBlurThreshold = "0"
+[2025.09.30-19.33.56:811][  2]r.SSR.MaxRoughness = "0.1"
+[2025.09.30-19.33.56:811][  2]r.AllowOcclusionQueries = "1"
+[2025.09.30-19.33.56:824][  2]r.EarlyZPass = "2"
+[2025.09.30-19.33.56:854][  2]r.EarlyZPassMovable = "1"
+[2025.09.30-19.33.56:872][  2]foliage.DitheredLOD = "0"
+[2025.09.30-19.33.56:872][  2]sg.PostProcessQuality = "0"
+[2025.09.30-19.33.56:872][  2]sg.ShadowQuality = "0"
+[2025.09.30-19.33.56:872][  2]sg.TextureQuality = "0"
+[2025.09.30-19.33.56:874][  2]sg.EffectsQuality = "0"
+[2025.09.30-19.33.56:874][  2]sg.FoliageQuality = "0"
+[2025.09.30-19.33.56:874][  2]foliage.DensityScale = "0"
+[2025.09.30-19.33.56:874][  2]grass.densityScale = "0"
+[2025.09.30-19.33.56:874][  2]r.TranslucentLightingVolume = "0"
+[2025.09.30-19.33.56:874][  2]r.LightShaftDownSampleFactor = "4"
+[2025.09.30-19.33.56:875][  2]LogCarla: Error: Please regenerate the road in edit mode for 'CarlaMapGenerator2' actor
+[2025.09.30-19.33.56:875][  2]LogCarla: Generated DCEL with: { 4 vertices, 8 half-edges, 2 faces }
+[2025.09.30-19.33.56:882][  2]LogWorld: Bringing up level for play took: 10.131085
+[2025.09.30-19.33.56:884][  2]LogCarla: Changing weather settings to "ClearNoon"
+[2025.09.30-19.33.56:884][  2]PIE: Warning: Mobility of /Game/Maps/RaceTrack.RaceTrack:PersistentLevel.LightSource : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2025.09.30-19.33.56:885][  2]LogCarla: Found 1 PlayerStart positions for spawning vehicles
+[2025.09.30-19.33.56:885][  2]LogCarla: Warning: We don't have enough spawn points (PlayerStart) for vehicles!
+[2025.09.30-19.33.56:885][  2]LogCarla: To cover the 14 vehicles to spawn after beginplay, it will spawn one new vehicle each 3.000000 seconds
+[2025.09.30-19.33.56:896][  2]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-18380.000 Y=8020.000 Z=220.000] for [BmwGranTourer_C]
+[2025.09.30-19.33.56:896][  2]LogCarla: Warning: Requested 15 vehicles, but we were only able to spawn 1
+[2025.09.30-19.33.56:897][  2]LogCarla: Starting the timer to spawn the other 14 vehicles, one per 3.000000 seconds
+[2025.09.30-19.33.56:897][  2]LogLoad: Took 11.214469 seconds to LoadMap(/Game/Maps/RaceTrack)
+[2025.09.30-19.33.56:898][  2]LogCarlaServer: Warning: Client disconnected, server needs restart
+[2025.09.30-19.33.56:898][  2]LogCarlaServer: Restarting the level...
+[2025.09.30-19.33.56:918][  3]LogNet: Browse: /Game/Maps/RaceTrack?Name=Player?restart
+[2025.09.30-19.33.57:030][  3]LogLoad: LoadMap: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.33.57:455][  3]LogAIModule: Creating AISystem for world RaceTrack
+[2025.09.30-19.33.58:029][  3]LogLoad: Game class is 'CarlaGameMode_C'
+[2025.09.30-19.33.58:076][  3]LogWorld: Bringing World /Game/Maps/RaceTrack.RaceTrack up for play (max tick rate 0) at 2025.09.30-13.33.58
+[2025.09.30-19.33.58:076][  3]LogCarla: Loading weather description from ../../../CarlaUE4/Config/CarlaWeather.ini
+[2025.09.30-19.33.58:077][  3]LogCarla: Warning: "../../../CarlaUE4/Config/CarlaWeather.RaceTrack.ini" not found
+[2025.09.30-19.33.58:078][  3]LogCarlaServer: Waiting for the client to connect...
+[2025.09.30-19.34.08:079][  3]LogCarlaServer: Warning: Failed to initialize, server needs restart
+[2025.09.30-19.34.08:079][  3]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.34.08:079][  3]LogCarla: Last settings file loaded: ../../../CarlaUE4/Config/CarlaSettings.ini
+[2025.09.30-19.34.08:079][  3]LogCarla: [CARLA/Server]
+[2025.09.30-19.34.08:079][  3]LogCarla: Networking = Enabled
+[2025.09.30-19.34.08:079][  3]LogCarla: World Port = 2000
+[2025.09.30-19.34.08:079][  3]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.34.08:079][  3]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.34.08:079][  3]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.34.08:079][  3]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.34.08:079][  3]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.34.08:079][  3]LogCarla: Number Of Vehicles    = 15
+[2025.09.30-19.34.08:079][  3]LogCarla: Number Of Pedestrians = 30
+[2025.09.30-19.34.08:080][  3]LogCarla: Weather Id = 1
+[2025.09.30-19.34.08:080][  3]LogCarla: Seed Vehicle Spawner = 123456789
+[2025.09.30-19.34.08:080][  3]LogCarla: Seed Pedestrian Spawner = 123456789
+[2025.09.30-19.34.08:080][  3]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.34.08:080][  3]LogCarla: Found 15 available weather settings.
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 0 - Default
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 1 - ClearNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 2 - CloudyNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 3 - WetNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 4 - WetCloudyNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 5 - MidRainyNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 6 - HardRainNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 7 - SoftRainNoon
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 8 - ClearSunset
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 9 - CloudySunset
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 10 - WetSunset
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 11 - WetCloudySunset
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 12 - MidRainSunset
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 13 - HardRainSunset
+[2025.09.30-19.34.08:080][  3]LogCarla:   * 14 - SoftRainSunset
+[2025.09.30-19.34.08:080][  3]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.34.08:080][  3]LogCarla: Quality Settings = Low
+[2025.09.30-19.34.08:080][  3]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.34.08:080][  3]LogCarla: Added 0 sensors.
+[2025.09.30-19.34.08:080][  3]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.34.08:080][  3]LogCarla: ================================================================================
+[2025.09.30-19.34.08:080][  3]r.DefaultFeature.MotionBlur = "0"
+[2025.09.30-19.34.08:086][  3]r.DefaultFeature.Bloom = "0"
+[2025.09.30-19.34.08:090][  3]r.DefaultFeature.AmbientOcclusion = "0"
+[2025.09.30-19.34.08:090][  3]r.AmbientOcclusionLevels = "0"
+[2025.09.30-19.34.08:090][  3]r.DefaultFeature.AmbientOcclusionStaticFraction = "0"
+[2025.09.30-19.34.08:090][  3]r.DefaultFeature.AutoExposure = "0"
+[2025.09.30-19.34.08:091][  3]r.RHICmdBypass = "0"
+[2025.09.30-19.34.08:091][  3]r.DefaultFeature.AntiAliasing = "2"
+[2025.09.30-19.34.08:091][  3]r.Streaming.PoolSize = "2000"
+[2025.09.30-19.34.08:091][  3]r.HZBOcclusion = "0"
+[2025.09.30-19.34.08:091][  3]r.MinScreenRadiusForLights = "0.01"
+[2025.09.30-19.34.08:091][  3]r.SeparateTranslucency = "0"
+[2025.09.30-19.34.08:091][  3]r.FinishCurrentFrame = "0"
+[2025.09.30-19.34.08:091][  3]r.MotionBlurQuality = "0"
+[2025.09.30-19.34.08:091][  3]r.PostProcessAAQuality = "0"
+[2025.09.30-19.34.08:091][  3]r.BloomQuality = "1"
+[2025.09.30-19.34.08:093][  3]r.SSR.Quality = "0"
+[2025.09.30-19.34.08:093][  3]r.DepthOfFieldQuality = "0"
+[2025.09.30-19.34.08:093][  3]r.SceneColorFormat = "2"
+[2025.09.30-19.34.08:093][  3]r.TranslucencyVolumeBlur = "0"
+[2025.09.30-19.34.08:093][  3]r.TranslucencyLightingVolumeDim = "4"
+[2025.09.30-19.34.08:093][  3]r.MaxAnisotropy = "8"
+[2025.09.30-19.34.08:093][  3]r.LensFlareQuality = "0"
+[2025.09.30-19.34.08:093][  3]r.SceneColorFringeQuality = "0"
+[2025.09.30-19.34.08:093][  3]r.FastBlurThreshold = "0"
+[2025.09.30-19.34.08:093][  3]r.SSR.MaxRoughness = "0.1"
+[2025.09.30-19.34.08:093][  3]r.AllowOcclusionQueries = "1"
+[2025.09.30-19.34.08:106][  3]r.EarlyZPass = "2"
+[2025.09.30-19.34.08:139][  3]r.EarlyZPassMovable = "1"
+[2025.09.30-19.34.08:162][  3]foliage.DitheredLOD = "0"
+[2025.09.30-19.34.08:162][  3]sg.PostProcessQuality = "0"
+[2025.09.30-19.34.08:163][  3]sg.ShadowQuality = "0"
+[2025.09.30-19.34.08:163][  3]sg.TextureQuality = "0"
+[2025.09.30-19.34.08:163][  3]sg.EffectsQuality = "0"
+[2025.09.30-19.34.08:163][  3]sg.FoliageQuality = "0"
+[2025.09.30-19.34.08:163][  3]foliage.DensityScale = "0"
+[2025.09.30-19.34.08:163][  3]grass.densityScale = "0"
+[2025.09.30-19.34.08:163][  3]r.TranslucentLightingVolume = "0"
+[2025.09.30-19.34.08:163][  3]r.LightShaftDownSampleFactor = "4"
+[2025.09.30-19.34.08:164][  3]LogCarla: Error: Please regenerate the road in edit mode for 'CarlaMapGenerator2' actor
+[2025.09.30-19.34.08:164][  3]LogCarla: Generated DCEL with: { 4 vertices, 8 half-edges, 2 faces }
+[2025.09.30-19.34.08:171][  3]LogWorld: Bringing up level for play took: 10.140099
+[2025.09.30-19.34.08:174][  3]LogCarla: Changing weather settings to "ClearNoon"
+[2025.09.30-19.34.08:174][  3]PIE: Warning: Mobility of /Game/Maps/RaceTrack.RaceTrack:PersistentLevel.LightSource : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2025.09.30-19.34.08:175][  3]LogCarla: Found 1 PlayerStart positions for spawning vehicles
+[2025.09.30-19.34.08:175][  3]LogCarla: Warning: We don't have enough spawn points (PlayerStart) for vehicles!
+[2025.09.30-19.34.08:175][  3]LogCarla: To cover the 14 vehicles to spawn after beginplay, it will spawn one new vehicle each 3.000000 seconds
+[2025.09.30-19.34.08:187][  3]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-18380.000 Y=8020.000 Z=220.000] for [BmwGranTourer_C]
+[2025.09.30-19.34.08:187][  3]LogCarla: Warning: Requested 15 vehicles, but we were only able to spawn 1
+[2025.09.30-19.34.08:187][  3]LogCarla: Starting the timer to spawn the other 14 vehicles, one per 3.000000 seconds
+[2025.09.30-19.34.08:188][  3]LogLoad: Took 11.157535 seconds to LoadMap(/Game/Maps/RaceTrack)
+[2025.09.30-19.34.08:189][  3]LogCarlaServer: Warning: Client disconnected, server needs restart
+[2025.09.30-19.34.08:189][  3]LogCarlaServer: Restarting the level...
+[2025.09.30-19.34.08:206][  4]LogNet: Browse: /Game/Maps/RaceTrack?Name=Player?restart
+[2025.09.30-19.34.08:299][  4]LogLoad: LoadMap: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.34.08:749][  4]LogAIModule: Creating AISystem for world RaceTrack
+[2025.09.30-19.34.09:344][  4]LogLoad: Game class is 'CarlaGameMode_C'
+[2025.09.30-19.34.09:425][  4]LogWorld: Bringing World /Game/Maps/RaceTrack.RaceTrack up for play (max tick rate 0) at 2025.09.30-13.34.09
+[2025.09.30-19.34.09:426][  4]LogCarla: Loading weather description from ../../../CarlaUE4/Config/CarlaWeather.ini
+[2025.09.30-19.34.09:428][  4]LogCarla: Warning: "../../../CarlaUE4/Config/CarlaWeather.RaceTrack.ini" not found
+[2025.09.30-19.34.09:429][  4]LogCarlaServer: Waiting for the client to connect...
+[2025.09.30-19.34.14:687][  4]LogCarlaServer: Received new episode
+[2025.09.30-19.34.14:687][  4]LogCarla: Loading CARLA settings from string
+[2025.09.30-19.34.14:687][  4]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.34.14:687][  4]LogCarla: Last settings file loaded: <string-provided-by-client>
+[2025.09.30-19.34.14:687][  4]LogCarla: [CARLA/Server]
+[2025.09.30-19.34.14:687][  4]LogCarla: Networking = Enabled
+[2025.09.30-19.34.14:687][  4]LogCarla: World Port = 2000
+[2025.09.30-19.34.14:687][  4]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.34.14:687][  4]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.34.14:687][  4]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.34.14:687][  4]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.34.14:687][  4]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.34.14:687][  4]LogCarla: Number Of Vehicles    = 0
+[2025.09.30-19.34.14:687][  4]LogCarla: Number Of Pedestrians = 0
+[2025.09.30-19.34.14:687][  4]LogCarla: Weather Id = 1
+[2025.09.30-19.34.14:687][  4]LogCarla: Seed Vehicle Spawner = 0
+[2025.09.30-19.34.14:687][  4]LogCarla: Seed Pedestrian Spawner = 0
+[2025.09.30-19.34.14:687][  4]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.34.14:687][  4]LogCarla: Found 15 available weather settings.
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 0 - Default
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 1 - ClearNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 2 - CloudyNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 3 - WetNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 4 - WetCloudyNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 5 - MidRainyNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 6 - HardRainNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 7 - SoftRainNoon
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 8 - ClearSunset
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 9 - CloudySunset
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 10 - WetSunset
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 11 - WetCloudySunset
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 12 - MidRainSunset
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 13 - HardRainSunset
+[2025.09.30-19.34.14:687][  4]LogCarla:   * 14 - SoftRainSunset
+[2025.09.30-19.34.14:687][  4]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.34.14:687][  4]LogCarla: Quality Settings = Low
+[2025.09.30-19.34.14:687][  4]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.34.14:687][  4]LogCarla: Added 0 sensors.
+[2025.09.30-19.34.14:687][  4]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.34.14:687][  4]LogCarla: ================================================================================
+[2025.09.30-19.34.14:687][  4]r.DefaultFeature.MotionBlur = "0"
+[2025.09.30-19.34.14:694][  4]r.DefaultFeature.Bloom = "0"
+[2025.09.30-19.34.14:698][  4]r.DefaultFeature.AmbientOcclusion = "0"
+[2025.09.30-19.34.14:698][  4]r.AmbientOcclusionLevels = "0"
+[2025.09.30-19.34.14:698][  4]r.DefaultFeature.AmbientOcclusionStaticFraction = "0"
+[2025.09.30-19.34.14:699][  4]r.DefaultFeature.AutoExposure = "0"
+[2025.09.30-19.34.14:699][  4]r.RHICmdBypass = "0"
+[2025.09.30-19.34.14:699][  4]r.DefaultFeature.AntiAliasing = "2"
+[2025.09.30-19.34.14:699][  4]r.Streaming.PoolSize = "2000"
+[2025.09.30-19.34.14:699][  4]r.HZBOcclusion = "0"
+[2025.09.30-19.34.14:699][  4]r.MinScreenRadiusForLights = "0.01"
+[2025.09.30-19.34.14:699][  4]r.SeparateTranslucency = "0"
+[2025.09.30-19.34.14:699][  4]r.FinishCurrentFrame = "0"
+[2025.09.30-19.34.14:699][  4]r.MotionBlurQuality = "0"
+[2025.09.30-19.34.14:701][  4]r.PostProcessAAQuality = "0"
+[2025.09.30-19.34.14:701][  4]r.BloomQuality = "1"
+[2025.09.30-19.34.14:701][  4]r.SSR.Quality = "0"
+[2025.09.30-19.34.14:701][  4]r.DepthOfFieldQuality = "0"
+[2025.09.30-19.34.14:701][  4]r.SceneColorFormat = "2"
+[2025.09.30-19.34.14:701][  4]r.TranslucencyVolumeBlur = "0"
+[2025.09.30-19.34.14:701][  4]r.TranslucencyLightingVolumeDim = "4"
+[2025.09.30-19.34.14:701][  4]r.MaxAnisotropy = "8"
+[2025.09.30-19.34.14:701][  4]r.LensFlareQuality = "0"
+[2025.09.30-19.34.14:701][  4]r.SceneColorFringeQuality = "0"
+[2025.09.30-19.34.14:701][  4]r.FastBlurThreshold = "0"
+[2025.09.30-19.34.14:701][  4]r.SSR.MaxRoughness = "0.1"
+[2025.09.30-19.34.14:701][  4]r.AllowOcclusionQueries = "1"
+[2025.09.30-19.34.14:715][  4]r.EarlyZPass = "2"
+[2025.09.30-19.34.14:747][  4]r.EarlyZPassMovable = "1"
+[2025.09.30-19.34.14:767][  4]foliage.DitheredLOD = "0"
+[2025.09.30-19.34.14:767][  4]sg.PostProcessQuality = "0"
+[2025.09.30-19.34.14:767][  4]sg.ShadowQuality = "0"
+[2025.09.30-19.34.14:767][  4]sg.TextureQuality = "0"
+[2025.09.30-19.34.14:767][  4]sg.EffectsQuality = "0"
+[2025.09.30-19.34.14:768][  4]sg.FoliageQuality = "0"
+[2025.09.30-19.34.14:768][  4]foliage.DensityScale = "0"
+[2025.09.30-19.34.14:768][  4]grass.densityScale = "0"
+[2025.09.30-19.34.14:768][  4]r.TranslucentLightingVolume = "0"
+[2025.09.30-19.34.14:768][  4]r.LightShaftDownSampleFactor = "4"
+[2025.09.30-19.34.14:768][  4]LogCarla: Error: Please regenerate the road in edit mode for 'CarlaMapGenerator2' actor
+[2025.09.30-19.34.14:768][  4]LogCarla: Generated DCEL with: { 4 vertices, 8 half-edges, 2 faces }
+[2025.09.30-19.34.14:777][  4]LogWorld: Bringing up level for play took: 5.428468
+[2025.09.30-19.34.14:778][  4]LogCarlaServer: Sending 1 available start positions
+[2025.09.30-19.34.14:778][  4]LogCarlaServer: Sending 0 sensor descriptions
+[2025.09.30-19.34.14:779][  4]LogCarlaServer: Episode start received: { StartIndex = 1 }
+[2025.09.30-19.34.14:779][  4]LogCarlaServer: Warning: Client requested an invalid player start, using default one instead.
+[2025.09.30-19.34.14:782][  4]LogCarla: Changing weather settings to "ClearNoon"
+[2025.09.30-19.34.14:782][  4]PIE: Warning: Mobility of /Game/Maps/RaceTrack.RaceTrack:PersistentLevel.LightSource : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2025.09.30-19.34.14:782][  4]LogCarlaServer: Ready to play, notifying client
+[2025.09.30-19.34.14:785][  4]LogCarla: Found 1 PlayerStart positions for spawning vehicles
+[2025.09.30-19.34.14:785][  4]LogCarla: Warning: We don't have enough spawn points (PlayerStart) for vehicles!
+[2025.09.30-19.34.14:785][  4]LogCarla: To cover the 9 vehicles to spawn after beginplay, it will spawn one new vehicle each 3.000000 seconds
+[2025.09.30-19.34.14:785][  4]LogLoad: Took 6.486396 seconds to LoadMap(/Game/Maps/RaceTrack)
+[2025.09.30-19.35.07:748][840]LogCarlaServer: Warning: Client disconnected, server needs restart
+[2025.09.30-19.35.07:748][840]LogCarlaServer: Restarting the level...
+[2025.09.30-19.35.07:756][841]LogNet: Browse: /Game/Maps/RaceTrack?Name=Player?restart
+[2025.09.30-19.35.07:772][841]LogLoad: LoadMap: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.35.08:286][841]LogAIModule: Creating AISystem for world RaceTrack
+[2025.09.30-19.35.08:852][841]LogLoad: Game class is 'CarlaGameMode_C'
+[2025.09.30-19.35.08:911][841]LogWorld: Bringing World /Game/Maps/RaceTrack.RaceTrack up for play (max tick rate 0) at 2025.09.30-13.35.08
+[2025.09.30-19.35.08:911][841]LogCarla: Loading weather description from ../../../CarlaUE4/Config/CarlaWeather.ini
+[2025.09.30-19.35.08:913][841]LogCarla: Warning: "../../../CarlaUE4/Config/CarlaWeather.RaceTrack.ini" not found
+[2025.09.30-19.35.08:914][841]LogCarlaServer: Waiting for the client to connect...
+[2025.09.30-19.35.18:915][841]LogCarlaServer: Warning: Failed to initialize, server needs restart
+[2025.09.30-19.35.18:915][841]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.35.18:915][841]LogCarla: Last settings file loaded: <string-provided-by-client>
+[2025.09.30-19.35.18:915][841]LogCarla: [CARLA/Server]
+[2025.09.30-19.35.18:915][841]LogCarla: Networking = Enabled
+[2025.09.30-19.35.18:915][841]LogCarla: World Port = 2000
+[2025.09.30-19.35.18:915][841]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.35.18:915][841]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.35.18:915][841]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.35.18:915][841]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.35.18:915][841]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.35.18:915][841]LogCarla: Number Of Vehicles    = 0
+[2025.09.30-19.35.18:915][841]LogCarla: Number Of Pedestrians = 0
+[2025.09.30-19.35.18:915][841]LogCarla: Weather Id = 1
+[2025.09.30-19.35.18:915][841]LogCarla: Seed Vehicle Spawner = 0
+[2025.09.30-19.35.18:915][841]LogCarla: Seed Pedestrian Spawner = 0
+[2025.09.30-19.35.18:916][841]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.35.18:916][841]LogCarla: Found 15 available weather settings.
+[2025.09.30-19.35.18:916][841]LogCarla:   * 0 - Default
+[2025.09.30-19.35.18:916][841]LogCarla:   * 1 - ClearNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 2 - CloudyNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 3 - WetNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 4 - WetCloudyNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 5 - MidRainyNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 6 - HardRainNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 7 - SoftRainNoon
+[2025.09.30-19.35.18:916][841]LogCarla:   * 8 - ClearSunset
+[2025.09.30-19.35.18:916][841]LogCarla:   * 9 - CloudySunset
+[2025.09.30-19.35.18:916][841]LogCarla:   * 10 - WetSunset
+[2025.09.30-19.35.18:916][841]LogCarla:   * 11 - WetCloudySunset
+[2025.09.30-19.35.18:916][841]LogCarla:   * 12 - MidRainSunset
+[2025.09.30-19.35.18:916][841]LogCarla:   * 13 - HardRainSunset
+[2025.09.30-19.35.18:916][841]LogCarla:   * 14 - SoftRainSunset
+[2025.09.30-19.35.18:916][841]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.35.18:916][841]LogCarla: Quality Settings = Low
+[2025.09.30-19.35.18:916][841]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.35.18:916][841]LogCarla: Added 0 sensors.
+[2025.09.30-19.35.18:916][841]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.35.18:916][841]LogCarla: ================================================================================
+[2025.09.30-19.35.18:916][841]r.DefaultFeature.MotionBlur = "0"
+[2025.09.30-19.35.18:921][841]r.DefaultFeature.Bloom = "0"
+[2025.09.30-19.35.18:927][841]r.DefaultFeature.AmbientOcclusion = "0"
+[2025.09.30-19.35.18:927][841]r.AmbientOcclusionLevels = "0"
+[2025.09.30-19.35.18:928][841]r.DefaultFeature.AmbientOcclusionStaticFraction = "0"
+[2025.09.30-19.35.18:928][841]r.DefaultFeature.AutoExposure = "0"
+[2025.09.30-19.35.18:928][841]r.RHICmdBypass = "0"
+[2025.09.30-19.35.18:928][841]r.DefaultFeature.AntiAliasing = "2"
+[2025.09.30-19.35.18:928][841]r.Streaming.PoolSize = "2000"
+[2025.09.30-19.35.18:928][841]r.HZBOcclusion = "0"
+[2025.09.30-19.35.18:928][841]r.MinScreenRadiusForLights = "0.01"
+[2025.09.30-19.35.18:928][841]r.SeparateTranslucency = "0"
+[2025.09.30-19.35.18:928][841]r.FinishCurrentFrame = "0"
+[2025.09.30-19.35.18:928][841]r.MotionBlurQuality = "0"
+[2025.09.30-19.35.18:929][841]r.PostProcessAAQuality = "0"
+[2025.09.30-19.35.18:929][841]r.BloomQuality = "1"
+[2025.09.30-19.35.18:929][841]r.SSR.Quality = "0"
+[2025.09.30-19.35.18:929][841]r.DepthOfFieldQuality = "0"
+[2025.09.30-19.35.18:929][841]r.SceneColorFormat = "2"
+[2025.09.30-19.35.18:929][841]r.TranslucencyVolumeBlur = "0"
+[2025.09.30-19.35.18:929][841]r.TranslucencyLightingVolumeDim = "4"
+[2025.09.30-19.35.18:929][841]r.MaxAnisotropy = "8"
+[2025.09.30-19.35.18:929][841]r.LensFlareQuality = "0"
+[2025.09.30-19.35.18:929][841]r.SceneColorFringeQuality = "0"
+[2025.09.30-19.35.18:929][841]r.FastBlurThreshold = "0"
+[2025.09.30-19.35.18:929][841]r.SSR.MaxRoughness = "0.1"
+[2025.09.30-19.35.18:929][841]r.AllowOcclusionQueries = "1"
+[2025.09.30-19.35.18:942][841]r.EarlyZPass = "2"
+[2025.09.30-19.35.18:977][841]r.EarlyZPassMovable = "1"
+[2025.09.30-19.35.18:998][841]foliage.DitheredLOD = "0"
+[2025.09.30-19.35.18:998][841]sg.PostProcessQuality = "0"
+[2025.09.30-19.35.18:998][841]sg.ShadowQuality = "0"
+[2025.09.30-19.35.18:998][841]sg.TextureQuality = "0"
+[2025.09.30-19.35.18:998][841]sg.EffectsQuality = "0"
+[2025.09.30-19.35.18:998][841]sg.FoliageQuality = "0"
+[2025.09.30-19.35.18:999][841]foliage.DensityScale = "0"
+[2025.09.30-19.35.18:999][841]grass.densityScale = "0"
+[2025.09.30-19.35.18:999][841]r.TranslucentLightingVolume = "0"
+[2025.09.30-19.35.18:999][841]r.LightShaftDownSampleFactor = "4"
+[2025.09.30-19.35.18:999][841]LogCarla: Error: Please regenerate the road in edit mode for 'CarlaMapGenerator2' actor
+[2025.09.30-19.35.18:999][841]LogCarla: Generated DCEL with: { 4 vertices, 8 half-edges, 2 faces }
+[2025.09.30-19.35.19:007][841]LogWorld: Bringing up level for play took: 10.152709
+[2025.09.30-19.35.19:009][841]LogCarla: Changing weather settings to "ClearNoon"
+[2025.09.30-19.35.19:009][841]PIE: Warning: Mobility of /Game/Maps/RaceTrack.RaceTrack:PersistentLevel.LightSource : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2025.09.30-19.35.19:011][841]LogCarla: Found 1 PlayerStart positions for spawning vehicles
+[2025.09.30-19.35.19:011][841]LogCarla: Warning: We don't have enough spawn points (PlayerStart) for vehicles!
+[2025.09.30-19.35.19:011][841]LogCarla: To cover the 9 vehicles to spawn after beginplay, it will spawn one new vehicle each 3.000000 seconds
+[2025.09.30-19.35.19:011][841]LogLoad: Took 11.238875 seconds to LoadMap(/Game/Maps/RaceTrack)
+[2025.09.30-19.35.19:012][841]LogCarlaServer: Warning: Client disconnected, server needs restart
+[2025.09.30-19.35.19:012][841]LogCarlaServer: Restarting the level...
+[2025.09.30-19.35.19:044][842]LogNet: Browse: /Game/Maps/RaceTrack?Name=Player?restart
+[2025.09.30-19.35.19:124][842]LogLoad: LoadMap: /Game/Maps/RaceTrack?Name=Player
+[2025.09.30-19.35.19:588][842]LogAIModule: Creating AISystem for world RaceTrack
+[2025.09.30-19.35.20:157][842]LogLoad: Game class is 'CarlaGameMode_C'
+[2025.09.30-19.35.20:220][842]LogWorld: Bringing World /Game/Maps/RaceTrack.RaceTrack up for play (max tick rate 0) at 2025.09.30-13.35.20
+[2025.09.30-19.35.20:220][842]LogCarla: Loading weather description from ../../../CarlaUE4/Config/CarlaWeather.ini
+[2025.09.30-19.35.20:222][842]LogCarla: Warning: "../../../CarlaUE4/Config/CarlaWeather.RaceTrack.ini" not found
+[2025.09.30-19.35.20:223][842]LogCarlaServer: Waiting for the client to connect...
+[2025.09.30-19.35.30:225][842]LogCarlaServer: Warning: Failed to initialize, server needs restart
+[2025.09.30-19.35.30:225][842]LogCarla: == CARLA Settings ==============================================================
+[2025.09.30-19.35.30:225][842]LogCarla: Last settings file loaded: <string-provided-by-client>
+[2025.09.30-19.35.30:225][842]LogCarla: [CARLA/Server]
+[2025.09.30-19.35.30:225][842]LogCarla: Networking = Enabled
+[2025.09.30-19.35.30:225][842]LogCarla: World Port = 2000
+[2025.09.30-19.35.30:225][842]LogCarla: Server Time-out = 10000 ms
+[2025.09.30-19.35.30:225][842]LogCarla: Synchronous Mode = Enabled
+[2025.09.30-19.35.30:225][842]LogCarla: Send Non-Player Agents Info = Disabled
+[2025.09.30-19.35.30:225][842]LogCarla: [CARLA/LevelSettings]
+[2025.09.30-19.35.30:225][842]LogCarla: Player Vehicle        = /Game/Blueprints/Vehicles/Mustang/Mustang.Mustang_C
+[2025.09.30-19.35.30:225][842]LogCarla: Number Of Vehicles    = 0
+[2025.09.30-19.35.30:225][842]LogCarla: Number Of Pedestrians = 0
+[2025.09.30-19.35.30:225][842]LogCarla: Weather Id = 1
+[2025.09.30-19.35.30:226][842]LogCarla: Seed Vehicle Spawner = 0
+[2025.09.30-19.35.30:226][842]LogCarla: Seed Pedestrian Spawner = 0
+[2025.09.30-19.35.30:226][842]LogCarla: Two-Wheeled Vehicles = Enabled
+[2025.09.30-19.35.30:226][842]LogCarla: Found 15 available weather settings.
+[2025.09.30-19.35.30:226][842]LogCarla:   * 0 - Default
+[2025.09.30-19.35.30:226][842]LogCarla:   * 1 - ClearNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 2 - CloudyNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 3 - WetNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 4 - WetCloudyNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 5 - MidRainyNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 6 - HardRainNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 7 - SoftRainNoon
+[2025.09.30-19.35.30:226][842]LogCarla:   * 8 - ClearSunset
+[2025.09.30-19.35.30:226][842]LogCarla:   * 9 - CloudySunset
+[2025.09.30-19.35.30:226][842]LogCarla:   * 10 - WetSunset
+[2025.09.30-19.35.30:226][842]LogCarla:   * 11 - WetCloudySunset
+[2025.09.30-19.35.30:226][842]LogCarla:   * 12 - MidRainSunset
+[2025.09.30-19.35.30:226][842]LogCarla:   * 13 - HardRainSunset
+[2025.09.30-19.35.30:226][842]LogCarla:   * 14 - SoftRainSunset
+[2025.09.30-19.35.30:226][842]LogCarla: [CARLA/QualitySettings]
+[2025.09.30-19.35.30:226][842]LogCarla: Quality Settings = Low
+[2025.09.30-19.35.30:226][842]LogCarla: [CARLA/Sensor]
+[2025.09.30-19.35.30:226][842]LogCarla: Added 0 sensors.
+[2025.09.30-19.35.30:226][842]LogCarla: Semantic Segmentation = Disabled
+[2025.09.30-19.35.30:226][842]LogCarla: ================================================================================
+[2025.09.30-19.35.30:226][842]r.DefaultFeature.MotionBlur = "0"
+[2025.09.30-19.35.30:231][842]r.DefaultFeature.Bloom = "0"
+[2025.09.30-19.35.30:237][842]r.DefaultFeature.AmbientOcclusion = "0"
+[2025.09.30-19.35.30:237][842]r.AmbientOcclusionLevels = "0"
+[2025.09.30-19.35.30:237][842]r.DefaultFeature.AmbientOcclusionStaticFraction = "0"
+[2025.09.30-19.35.30:238][842]r.DefaultFeature.AutoExposure = "0"
+[2025.09.30-19.35.30:238][842]r.RHICmdBypass = "0"
+[2025.09.30-19.35.30:238][842]r.DefaultFeature.AntiAliasing = "2"
+[2025.09.30-19.35.30:238][842]r.Streaming.PoolSize = "2000"
+[2025.09.30-19.35.30:238][842]r.HZBOcclusion = "0"
+[2025.09.30-19.35.30:238][842]r.MinScreenRadiusForLights = "0.01"
+[2025.09.30-19.35.30:238][842]r.SeparateTranslucency = "0"
+[2025.09.30-19.35.30:238][842]r.FinishCurrentFrame = "0"
+[2025.09.30-19.35.30:238][842]r.MotionBlurQuality = "0"
+[2025.09.30-19.35.30:238][842]r.PostProcessAAQuality = "0"
+[2025.09.30-19.35.30:238][842]r.BloomQuality = "1"
+[2025.09.30-19.35.30:238][842]r.SSR.Quality = "0"
+[2025.09.30-19.35.30:238][842]r.DepthOfFieldQuality = "0"
+[2025.09.30-19.35.30:239][842]r.SceneColorFormat = "2"
+[2025.09.30-19.35.30:239][842]r.TranslucencyVolumeBlur = "0"
+[2025.09.30-19.35.30:239][842]r.TranslucencyLightingVolumeDim = "4"
+[2025.09.30-19.35.30:239][842]r.MaxAnisotropy = "8"
+[2025.09.30-19.35.30:239][842]r.LensFlareQuality = "0"
+[2025.09.30-19.35.30:239][842]r.SceneColorFringeQuality = "0"
+[2025.09.30-19.35.30:239][842]r.FastBlurThreshold = "0"
+[2025.09.30-19.35.30:239][842]r.SSR.MaxRoughness = "0.1"
+[2025.09.30-19.35.30:239][842]r.AllowOcclusionQueries = "1"
+[2025.09.30-19.35.30:253][842]r.EarlyZPass = "2"
+[2025.09.30-19.35.30:282][842]r.EarlyZPassMovable = "1"
+[2025.09.30-19.35.30:301][842]foliage.DitheredLOD = "0"
+[2025.09.30-19.35.30:301][842]sg.PostProcessQuality = "0"
+[2025.09.30-19.35.30:301][842]sg.ShadowQuality = "0"
+[2025.09.30-19.35.30:301][842]sg.TextureQuality = "0"
+[2025.09.30-19.35.30:302][842]sg.EffectsQuality = "0"
+[2025.09.30-19.35.30:302][842]sg.FoliageQuality = "0"
+[2025.09.30-19.35.30:302][842]foliage.DensityScale = "0"
+[2025.09.30-19.35.30:302][842]grass.densityScale = "0"
+[2025.09.30-19.35.30:302][842]r.TranslucentLightingVolume = "0"
+[2025.09.30-19.35.30:302][842]r.LightShaftDownSampleFactor = "4"
+[2025.09.30-19.35.30:302][842]LogCarla: Error: Please regenerate the road in edit mode for 'CarlaMapGenerator2' actor
+[2025.09.30-19.35.30:304][842]LogCarla: Generated DCEL with: { 4 vertices, 8 half-edges, 2 faces }
+[2025.09.30-19.35.30:310][842]LogWorld: Bringing up level for play took: 10.149062
+[2025.09.30-19.35.30:312][842]LogCarla: Changing weather settings to "ClearNoon"
+[2025.09.30-19.35.30:312][842]PIE: Warning: Mobility of /Game/Maps/RaceTrack.RaceTrack:PersistentLevel.LightSource : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2025.09.30-19.35.30:313][842]LogCarla: Found 1 PlayerStart positions for spawning vehicles
+[2025.09.30-19.35.30:313][842]LogCarla: Warning: We don't have enough spawn points (PlayerStart) for vehicles!
+[2025.09.30-19.35.30:313][842]LogCarla: To cover the 9 vehicles to spawn after beginplay, it will spawn one new vehicle each 3.000000 seconds
+[2025.09.30-19.35.30:313][842]LogLoad: Took 11.189391 seconds to LoadMap(/Game/Maps/RaceTrack)
+[2025.09.30-19.35.30:314][842]LogCarlaServer: Warning: Client disconnected, server needs restart
+[2025.09.30-19.35.30:314][842]LogCarlaServer: Restarting the level...
+[2025.09.30-19.35.30:324][842]LogSlate: Request Window 'CarlaUE4 (64-bit, PCD3D_SM5)' being destroyed
+[2025.09.30-19.35.30:445][842]LogSlate: Window 'CarlaUE4 (64-bit, PCD3D_SM5)' being destroyed
+[2025.09.30-19.35.30:447][842]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2025.09.30-19.35.30:493][843]LogEngine: All Windows Closed
+[2025.09.30-19.35.30:493][843]LogWindows: FPlatformMisc::RequestExit(0)
+[2025.09.30-19.35.31:512][844]LogExit: Preparing to exit.
+[2025.09.30-19.35.31:512][844]LogMoviePlayer: Shutting down movie player
+[2025.09.30-19.35.31:543][844]LogExit: Game engine shut down
+[2025.09.30-19.35.31:618][844]LogExit: Object subsystem successfully closed.
+[2025.09.30-19.35.31:682][844]LogD3D11RHI: Shutdown
+[2025.09.30-19.35.31:682][844]LogD3D11RHI: CleanupD3DDevice
+[2025.09.30-19.35.31:697][844]LogD3D11RHI: ~FD3D11DynamicRHI
+[2025.09.30-19.35.31:697][844]LogModuleManager: Shutting down and abandoning module AutomationController (153)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module AIModule (149)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module GameplayDebugger (148)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (145)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (143)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (141)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (139)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module CharacterAI (137)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module SessionServices (135)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (133)
+[2025.09.30-19.35.31:698][844]LogModuleManager: Shutting down and abandoning module MovieScene (131)
+[2025.09.30-19.35.31:699][844]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2025.09.30-19.35.31:699][844]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (127)
+[2025.09.30-19.35.31:699][844]LogModuleManager: Shutting down and abandoning module AnalyticsET (125)
+[2025.09.30-19.35.31:699][844]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2025.09.30-19.35.31:942][844]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2025.09.30-19.35.31:943][844]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module ActorSequence (109)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module MediaCompositing (107)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module PerformanceMonitor (105)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module CarlaUE4 (103)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (101)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (99)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2025.09.30-19.35.31:944][844]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module FacialAnimation (93)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module PhysXVehicles (87)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module Carla (85)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2025.09.30-19.35.31:945][844]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module ImgMedia (79)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module PacketHandler (77)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (75)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module Overlay (71)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2025.09.30-19.35.31:946][844]LogModuleManager: Shutting down and abandoning module SlateReflector (67)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module Slate (65)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module MRMesh (63)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module Messaging (61)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module XAudio2 (57)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module Networking (55)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module Core (51)
+[2025.09.30-19.35.31:950][844]LogModuleManager: Shutting down and abandoning module LevelSequence (49)
+[2025.09.30-19.35.31:951][844]LogModuleManager: Shutting down and abandoning module Media (47)
+[2025.09.30-19.35.31:956][844]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2025.09.30-19.35.31:956][844]LogModuleManager: Shutting down and abandoning module InputCore (41)
+[2025.09.30-19.35.31:956][844]LogModuleManager: Shutting down and abandoning module PhysXCooking (39)
+[2025.09.30-19.35.31:956][844]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (34)
+[2025.09.30-19.35.31:957][844]LogModuleManager: Shutting down and abandoning module HTTP (33)
+[2025.09.30-19.35.31:957][844]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2025.09.30-19.35.31:957][844]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1AB7EF5C-4355-9603-C6FA-A897CF43A589%7D&AppID=UEGame.Rocket.Release%7C675BF8694238308FA9368292CC440350%7CCARLA%20UE4&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=ANON-%7B0FB187F8-405A-9EB7-6627-CA85CC079747%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2025.09.30-19.35.31:980][844]LogModuleManager: Shutting down and abandoning module SSL (32)
+[2025.09.30-19.35.31:980][844]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2025.09.30-19.35.31:980][844]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2025.09.30-19.35.31:980][844]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2025.09.30-19.35.31:981][844]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2025.09.30-19.35.31:982][844]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2025.09.30-19.35.31:982][844]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2025.09.30-19.35.31:986][844]LogExit: Exiting.
+[2025.09.30-19.35.31:988][844]Log file closed, 09/30/25 13:35:31
