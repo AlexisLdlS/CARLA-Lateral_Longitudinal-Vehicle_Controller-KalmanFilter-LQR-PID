@@ -139,12 +139,12 @@ The EKF estimates **yaw**, **yaw rate**, and **velocity**, combining data from t
 
 ## ⚖️ Tuning Parameters
 
-| Parameter | Description | Default |
-|------------|-------------|----------|
-| `Kp, Ki, Kd` | PID gains | 3.0, 0.6, 0.1 |
-| `Q` | State penalty matrix | diag([1.0, 1.0, 0.5]) |
-| `R` | Control penalty | 10.0 |
-| `Q`, `R` (EKF) | Noise covariances | Q = diag([0.05,0.05,0.2]), R = diag([0.02,0.05]) |
+| Parameter | Description | 
+|------------|-------------|
+| `Kp, Ki, Kd` | PID gains | 
+| `Q (LQR)` | State penalty matrix | |
+| `R (LQR)` | Control penalty |
+| `Q`, `R` (EKF) | Noise and Model covariances | 
 
 ---
 
